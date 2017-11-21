@@ -1,12 +1,24 @@
-function add() {
-  
+function add(a, b) {
+  return a + b
 }
-function subtract() {
-  
+function subtract(a, b) {
+  return a - b
 }
-function multiply() {
-  
+function multiply(a, b) {
+  return a*b
 }
-function divide() {
-  
+function divide(a, b) {
+  return a/b
+}
+function inc(n) {
+  return ++n
+}
+function dec(n) {
+  return --n
+}
+function makeInt(n) {
+  return parseInt(n)
+}
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
